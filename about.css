@@ -1,0 +1,135 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+	
+html{	
+	scroll-behaviour:smooth;
+}
+
+.logo{
+    /* background-color: rgb(49, 46, 43); */
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    /* display: inline; */
+}
+nav ul{
+    float: right;
+    margin: auto;
+}
+nav ul li{
+    display: inline-block;
+    /* line-height: 80px; */
+    margin: 25px 30px 10px 5px;
+    color: white;
+    border: black solid;
+    border-radius: 10px;
+    width: 76px;
+    text-align: center;
+}
+.navbaar{
+    background-color: rgba(169, 67, 190, 0.712);
+}
+nav ul li a{
+    color: white;
+    font-size: 19px;
+}
+nav ul li a:hover{
+    color: black;   
+}
+.banner-area{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(27, 27, 27, 0.4),rgba(82, 81, 81, 0.4)), url("image.jpg");
+    background-size: cover;
+    color: white;
+}
+.content-area{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    font-size: 80px;
+}
+.content p{
+    font-size: 30px;
+}
+
+.background{
+	/* background: rgb(255, 252, 252); */
+	background: url("/istockphoto-1264447431-170667a.jpg");
+	background-blend-mode:darken;
+	background-size:cover;
+}
+	
+.firstsection{
+	height:100vh;
+}
+	
+.box-main{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color:rgb(12, 12, 12);
+	max-width:50%;
+	margin:auto;
+	height:80%;
+}
+	
+.firstHalf{	
+	width:75%;
+	display:flex;
+	
+	
+	flex-direction:column;
+	justify-content:center
+}
+	
+.firstHalf img{	
+	display:flex;
+	border-radius:9050px;
+}
+.text-big{
+	font-family: 'Piazzolla', serif;
+	
+
+	font-weight: bold;
+		font-size: 41px;
+
+	text-align:center;
+}
+	
+.text-small{	
+	font-family: 'Sansita Swashed', cursive;
+	font-size: 18px;
+	text-align:center;
+}
+
+.center{
+	text-align: center;
+}
+
+.footer{
+	background-color: rgba(49, 48, 48, 0.884);
+	background-blend-mode:darken;
+	background-size:cover;
+}
+.text-footer {
+	text-align: center;
+	padding: 30px 0;
+	font-family: 'Ubuntu', sans-serif;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
